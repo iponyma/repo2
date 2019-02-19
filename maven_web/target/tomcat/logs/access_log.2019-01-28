@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [28/Jan/2019:11:55:01 +0800] "GET /maven_web HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [28/Jan/2019:11:55:02 +0800] "GET /maven_web/ HTTP/1.1" 200 52 http-bio-8080-exec-2 514
+0:0:0:0:0:0:0:1 - - [28/Jan/2019:11:55:05 +0800] "GET /maven_web/items/findDetail HTTP/1.1" 404 1003 http-bio-8080-exec-3 9
+0:0:0:0:0:0:0:1 - - [28/Jan/2019:11:58:28 +0800] "GET /maven_web HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [28/Jan/2019:11:58:28 +0800] "GET /maven_web/ HTTP/1.1" 200 52 http-bio-8080-exec-3 38
+0:0:0:0:0:0:0:1 - - [28/Jan/2019:11:58:34 +0800] "GET /maven_web/items/findDetail HTTP/1.1" 200 646 http-bio-8080-exec-4 924
